@@ -1,38 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.body {
+  background: url(./image/sfondo\ portfolio.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Russo One', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-navbar.p-0 {
+  background: linear-gradient(0.3turn, #272d72, #ff1aa4);
 }
 
 .App-link {
-  color: #61dafb;
+  background-color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dropdown-toggle.nav-link {
+  color: white;
+}
+
+.custom-navbar {
+  height: 60px;
+}
+
+.navbar .nav-link {
+  border-bottom: 2px solid transparent;
+  /* Imposta un bordo inferiore trasparente per tutti i link */
+}
+
+.nav-link.active {
+  border-bottom: 5px solid rgb(0, 200, 255);
+  /* Aggiunge un bordo inferiore rosso */
+}
+
+.imgCarousel {
+  width: 30% !important;
+}
+
+
+
+.card4 {
+  background: url(./image/frontend.png);
+  background-size: cover;
+  background-position: center;
+  width: 97% !important;
+  height: 320px !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  display: flex !important;
+  align-content: stretch !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 80px !important;
+  margin-right: 80px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  box-shadow: 5px 10px 10px #000000;
+
+}
+
+.card2 {
+  background: url(./image/react.png);
+  background-size: cover;
+  background-position: center;
+  width: 97% !important;
+  height: 320px !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  display: flex !important;
+  align-content: stretch !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 80px !important;
+  margin-right: 80px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  box-shadow: 5px 10px 10px #000000;
+
+}
+
+.card3 {
+  background: url(./image/backend.png);
+  background-size: cover;
+  background-position: center;
+  width: 97% !important;
+  height: 320px !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  position: relative !important;
+  display: flex !important;
+  align-content: stretch !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 80px !important;
+  margin-right: 80px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  box-shadow: 5px 10px 10px #000000;
+
+
+}
+
+.cardBody {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 100%;
+  color: #fff;
+  position: absolute;
+  border-radius: 10px !important;
+  background: #1f3d4700;
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1.5s;
+}
+
+.card:hover .cardBody {
+  right: 0;
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+
+.sottotitolo {
+  background-color: #ff1aa374 !important;
+  backdrop-filter: blur(30px);
+  width: 30% !important;
+  height: 50px !important;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #272d72;
+
+}
+
+
+h1 {
+  font-size: 5em !important;
+  margin-top: 150px !important;
+  color: #ffffff;
+  background-color: #000536c6 !important;
+  width: 97% !important;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  border: 3px solid #ff1aa4;
+
+}
+
+/* CARD COMISO CSS */
+
+.head-comiso {
+  background-color: #ff1aa3 !important;
+  border-radius: 0% !important;
+
+}
+
+.body-comiso {
+  background-color: #272d72 !important;
+  color: white !important;
+}
+
+.card-comiso {
+  border: none !important;
+  box-shadow: 5px 10px 10px #000000;
+  border-radius: 0% !important;
+}
+
+.card-comiso2 {
+  box-shadow: 5px 10px 10px #000000;
+  border-radius: 0% !important;
+  border: none !important;
+}
+
+.cardComisoImg {
+  border-radius: 0% !important;
+}
+
+/* styles.css */
+
+.image-sabri {
+  background: url('../src/image/sabri2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* Aggiungi altri stili personalizzati qui, se necessario */
+}
+
+/* styles.css */
+
+.card-sabri2 {
+  border-radius: 50px 50px 50px 0px !important;
+}
+
+.card-sabri3 {
+  border-radius: 50px 50px 0px 50px !important;
+}
+
+.card-piattaforma {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+/* navbar*/
+
+  h1 {
+    width: 100% !important;
+    display: none;
   }
+
+  .titolo {
+    font-size: 0.3 !important;
+    color: #61dafb !important;
+  }
+
+  .d-flex.platform {
+    display: block !important;
+  }
+
+  .sottotitolo {
+    width: 100% !important;
+  }
+
+  .navbarLink {
+    font-size: 2em !important;
+  }
+
+  .navIcons.d-flex {
+    display: none !important;
+  }
+
+  .navbar-brand {
+    display: none !important;
+  }
+
+  .contactsNav {
+    display: none !important;
+  }
+
+  .mobileNav {
+    height: 60px;
+  }
+
+  .align-items-center.text-center.navbar-nav {
+    height: 100vh !important;
+    margin-top: 180px;
+  }
+
+/* comiso */
+
+  .d-flex.comisoCard {
+    display: block !important;
+    max-width: 100% !important;
+  }
+
+  .d-flex.sabriCard {
+    display: block !important;
+  }
+
+  .videoComiso {
+    display: none !important;
+  }
+
+  .comisoMaps {
+    margin: 0px !important;
+    width: 300px !important;
+    height: 300px !important;
+    margin: auto !important;
+  }
+
+  .w-50.mt-5.card-comiso
+  {
+    width: 95% !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+  }
+
+  /* su di me */
+
+.sabriCard {
+  width: 100% !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.mx-5.w-50.card-sabri2.sabriCard, .mt-5.sabriCard {
+  width: 100% !important;
+  margin: 0 !important;
+  margin-top: 30px !important;
+  border-radius: 0px !important;
+}
+
+.piattaformaCard {
+  display: block;
+  width: 300px !important;
+  height: 300px !important;
+  margin: auto !important;
+}
 }
