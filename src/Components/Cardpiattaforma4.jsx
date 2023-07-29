@@ -30,23 +30,12 @@ function BasicExample() {
 
   return (
     <>
-      <Card
+      <Card.Img
         id="piattaforma4"
-        style={{
-          width: "9rem",
-          opacity: showCard ? 1 : 0,
-          transform: showCard ? "translateX(0px)" : "translateX(-400px)",
-          transition: "opacity 1s ease, transform 1.4s ease",
-        }}
-        className="mt-5 card-piattaforma mx-5 piattaformaCard"
-      >
-        <Card.Img
-          onClick={handleShowModal}
-          className="image-sabri card-piattaforma piattaformaCard"
-          variant="top"
-          src={postman}
-        />
-      </Card>
+        onClick={handleShowModal}
+        className="image-sabri card-piattaforma mx-5 "
+        src={postman}
+      />
 
       <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>

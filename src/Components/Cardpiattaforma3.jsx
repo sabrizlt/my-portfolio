@@ -29,23 +29,13 @@ function BasicExample() {
   const handleShowModal = () => setShowModal(true);
   return (
     <>
-      <Card
+      
+      <Card.Img
         id="piattaforma3"
-        style={{
-          width: "9rem",
-          opacity: showCard ? 1 : 0,
-          transform: showCard ? "translateX(0)" : "translateX(-300px)",
-          transition: "opacity 0.5s ease, transform 1.2s ease",
-        }}
-        className="mt-5 card-piattaforma mx-5 piattaformaCard"
-      >
-        <Card.Img
           onClick={handleShowModal}
-          className="image-sabri card-piattaforma piattaformaCard"
-          variant="top"
+          className="image-sabri card-piattaforma mx-5"
           src={pgadmin}
         />
-      </Card>
 
       <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>

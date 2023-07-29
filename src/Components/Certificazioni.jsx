@@ -32,7 +32,7 @@ function BodyOnlyExample() {
       className="mx-auto mt-5 text-light card4"
     >
       <Card.Body id="certificazioni4" className="cardBody rounded ">
-        Durante il mio percorso front-end tramite un bootcamp, ho acquisito una
+        Durante il mio percorso front-end tramite Epicode, ho acquisito una
         solida base di competenze e conoscenze nel campo dello sviluppo web.
         Attraverso un'intensa esperienza di apprendimento focalizzata sullo
         sviluppo front-end, ho imparato le moderne tecnologie e i framework
@@ -40,7 +40,7 @@ function BodyOnlyExample() {
         un'immersione completa nel mondo dello sviluppo front-end, coprendo i
         principi fondamentali dell'HTML, del CSS e del JavaScript. Ho imparato a
         creare layout e strutturare il contenuto del sito web utilizzando HTML,
-        garantendo la corretta semantica dei tag e l'accessibilità. Con il CSS,
+        e con il CSS,
         ho acquisito le competenze per la progettazione di interfacce
         accattivanti, utilizzando stili, posizionamenti e animazioni per rendere
         il sito web visivamente attraente e reattivo su diversi dispositivi.
@@ -51,7 +51,7 @@ function BodyOnlyExample() {
         componentizzazione, la gestione dello stato e la manipolazione del DOM
         virtuale, che mi hanno permesso di costruire applicazioni front-end
         complesse e interattive. Durante il bootcamp, ho anche lavorato su
-        progetti pratici, collaborando con altri sviluppatori e applicando le
+        progetti pratici, collaborando con altri colleghi e applicando le
         competenze apprese per creare applicazioni web funzionali. Ho avuto
         l'opportunità di affrontare sfide reali nello sviluppo web e di
         migliorare le mie capacità di risoluzione dei problemi. In conclusione,
@@ -69,72 +69,72 @@ function BodyOnlyExample() {
 function UncontrolledExample() {
   return (
     <div>
-      <Carousel className="w-100 mt-5">
-        <Carousel.Item>
-          <div className="d-flex">
-            <img
-              className="mx-4 imgCarousel"
-              src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/63dccc9f82821a9b6d34b681.png"
-              alt="Fourth slide"
-              style={{
-                boxShadow: "5px 10px 10px #000000",
-              }}
-            />
+      <div className="carousel-container">
+        <Carousel className="w-100 mt-5" nextIcon={null} prevIcon={null}>
+          <Carousel.Item>
+            <div className="d-flex">
+              <img
+                className="mx-4 imgCarousel"
+                src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/63dccc9f82821a9b6d34b681.png"
+                alt="Fourth slide"
+                style={{
+                  boxShadow: "5px 10px 10px #000000",
+                }}
+              />
 
-            <img
-              className="mx-4 imgCarousel"
-              src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/63e6053f87e06ab10facd85c.png"
-              alt="Fifth slide"
-              style={{
-                boxShadow: "5px 10px 10px #000000",
-              }}
-            />
+              <img
+                className="mx-4 imgCarousel"
+                src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/63e6053f87e06ab10facd85c.png"
+                alt="Fifth slide"
+                style={{
+                  boxShadow: "5px 10px 10px #000000",
+                }}
+              />
 
-            <img
-              className="mx-4 imgCarousel"
-              src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/63fc97b0933752f5a21cb5cd.png"
-              alt="Sixth slide"
-              style={{
-                boxShadow: "5px 10px 10px #000000",
-              }}
-            />
-          </div>
-          {/* <CardCarousel1 /> */}
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="d-flex">
-            <img
-              className="mx-4 imgCarousel"
-              src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6401bf0fd827d9dfffb05e58.png"
-              alt="Fourth slide"
-              style={{
-                boxShadow: "5px 10px 10px #000000",
-              }}
-            />
+              <img
+                className="mx-4 imgCarousel"
+                src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/63fc97b0933752f5a21cb5cd.png"
+                alt="Sixth slide"
+                style={{
+                  boxShadow: "5px 10px 10px #000000",
+                }}
+              />
+            </div>
+            {/* <CardCarousel1 /> */}
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex">
+              <img
+                className="mx-4 imgCarousel"
+                src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6401bf0fd827d9dfffb05e58.png"
+                alt="Fourth slide"
+                style={{
+                  boxShadow: "5px 10px 10px #000000",
+                }}
+              />
 
-            <img
-              className="mx-4 imgCarousel"
-              src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6426a7dfdac3cf808df41d67.png"
-              alt="Fifth slide"
-              style={{
-                boxShadow: "5px 10px 10px #000000",
-              }}
-            />
+              <img
+                className="mx-4 imgCarousel"
+                src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6426a7dfdac3cf808df41d67.png"
+                alt="Fifth slide"
+                style={{
+                  boxShadow: "5px 10px 10px #000000",
+                }}
+              />
 
-            <img
-              className="mx-4 imgCarousel"
-              src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6415debd515157f077e07117.png"
-              alt="Sixth slide"
-              style={{
-                boxShadow: "5px 10px 10px #000000",
-              }}
-            />
-
-           
-          </div>
-        </Carousel.Item>
-      </Carousel>
-      <BodyOnlyExample />
+              <img
+                className="mx-4 imgCarousel"
+                src="https://csb39af7c2f2658x433dxa4d.blob.core.windows.net/credentials/6415debd515157f077e07117.png"
+                alt="Sixth slide"
+                style={{
+                  boxShadow: "5px 10px 10px #000000",
+                }}
+              />
+            </div>
+          </Carousel.Item>
+        </Carousel>
+        <BodyOnlyExample />
+      </div>
     </div>
   );
 }

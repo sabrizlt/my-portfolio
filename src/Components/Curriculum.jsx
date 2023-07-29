@@ -12,7 +12,7 @@ function Example() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className='mt-5'>
+      <Button variant="primary" onClick={handleShow} className=' mb-0' style={{height: '100px', marginTop: '100px'}}>
         View Curriculum
       </Button>
 
@@ -21,7 +21,7 @@ function Example() {
           <Modal.Title className='text-center'>MY CURRICULUM</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={curriculum} alt="" width={420} className='mx-4' />
+          <img src={curriculum} alt="" width={420} className='mx-4 curriculum' />
         </Modal.Body>
         <Modal.Footer> 
         </Modal.Footer>

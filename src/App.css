@@ -157,7 +157,7 @@
 
 h1 {
   font-size: 5em !important;
-  margin-top: 150px !important;
+  margin-top: 100px !important;
   color: #ffffff;
   background-color: #000536c6 !important;
   width: 97% !important;
@@ -229,6 +229,11 @@ h1 {
 }
 
 @media (max-width: 768px) {
+
+  body {
+    max-width: 100vh !important;
+  }
+
   .comisoCard {
     flex-direction: column;
     align-items: center;
@@ -258,4 +263,67 @@ h1 {
     margin-left: -17% !important;
     border: none !important;
   }
+
+  .carousel-container .imgCarousel {
+    width: 90% !important; /* Imposta la larghezza delle immagini a 100% dello spazio disponibile */
+  }
+
+  .piattaformaCard, .card-piattaforma {
+    width: 50% !important;
+    height: 200px !important;
+    margin-top: 50px !important;
+  }
+
+  h1 {
+    max-width: 100vh !important;
+    font-size: 45px !important;
+    margin-top: 100px !important;
+  }
+
+  .sottotitolo, .titolo {
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0% !important;
+  }
+  .titolo-home {
+    width: 100% !important;
+    border: none !important;
+    border-radius: 0% !important;
+    margin-top: 100px;
+  }
+
+  #basic-navbar-nav {
+    background: linear-gradient(0.3turn, #272d72, #ff1aa4);
+    backdrop-filter: blur(10px);
+    width: 100vh !important;
+    margin-top: 30px;
+
+  }
+
+  .navIcons {
+    display: flex;
+    margin-left: 10px;  
+  }
+
+  .icons {
+    margin-left: 30px;
+  }
+
+  #card3 {
+    display: none;
+  }
+
+  .curriculum {
+    width: 350px !important;
+  }
+
+  .mx-4.mt-5.mb-5.certificazione.w-75 {
+    width: 90% !important;
+  }
+}
+
+@media (min-width: 769px) {
+#map {
+  display: none;
+}
 }

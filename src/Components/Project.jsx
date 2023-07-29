@@ -11,32 +11,32 @@ const MyComponent = () => {
      <div class="text-white mx-auto rounded sottotitolo-project mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">MEDIUM</h2>
       </div>
-    <div className='video-progetto'  >
-      <video controls autoPlay loop className='w-50 mt-5 border-video '>
+    <div className='video-progetto2'  >
+      <video controls autoPlay loop className='w-75 mt-5 border-video '>
         <source src={medium} type="video/mp4" style={{width: '100px'}}/>
       </video>
     </div>
     <div class="text-white mx-auto rounded sottotitolo-project mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">SPOTIFY </h2>
       </div>
-      <div className='video-progetto'  >
-      <video controls autoPlay loop className='w-50 mt-5 border-video '>
+      <div className='video-progetto2'  >
+      <video controls autoPlay loop className='w-75 mt-5 border-video '>
         <source src={spotify} type="video/mp4" style={{width: '100px'}}/>
       </video>
     </div>
     <div class="text-white mx-auto rounded sottotitolo-project mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">METEO</h2>
       </div>
-      <div className='video-progetto'  >
-      <video controls autoPlay loop className='w-50 mt-5 border-video '>
+      <div className='video-progetto2'  >
+      <video controls autoPlay loop className='w-75 mt-5 border-video '>
         <source src={meteo} type="video/mp4" style={{width: '100px'}}/>
       </video>
     </div>
     <div class="text-white mx-auto rounded sottotitolo-project mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">LINKEDIN </h2>
       </div>
-      <div className='video-progetto'  >
-      <video controls autoPlay loop className='w-50 mt-5 border-video '>
+      <div className='video-progetto2'  >
+      <video controls autoPlay loop className='w-75 mt-5 border-video '>
         <source src={linkedin} type="video/mp4" style={{width: '100px'}}/>
       </video>
     </div>
