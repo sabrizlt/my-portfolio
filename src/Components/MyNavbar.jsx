@@ -21,7 +21,6 @@ function BasicExample() {
 
   return (
     <Navbar
-      bg="secondary"
       expand="lg"
       className="p-0 fixed-top"
       collapseOnSelect
@@ -29,19 +28,10 @@ function BasicExample() {
         background: "linear-gradient(0.3turn, #272d72, #ff1aa4)",
       }}
     >
-      <Container className="mobileNav">
+      <Container className="mobileNav" style={{height: '70px'}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="align-items-center text-center">
-            <Nav.Link
-              href="#home"
-              className={`text-info fw-bolder mt-4 navbarLink ${
-                activeLink === "home" ? "active" : ""
-              } mobile-nav-link`}
-              onClick={() => handleNavLinkClick("home")}
-            >
-              HOME
-            </Nav.Link>
             <Nav.Link
               href="#blog"
               className={`text-info fw-bolder mt-4 navbarLink ${

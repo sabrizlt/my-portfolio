@@ -41,6 +41,8 @@
   width: 30% !important;
 }
 
+.navbar {}
+
 
 
 .card4 {
@@ -142,6 +144,16 @@
 
 }
 
+.sottotitolo-project {
+  background-color: #272d72 !important;
+  backdrop-filter: blur(30px);
+  width: 30% !important;
+  height: 50px !important;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #ff1aa374;
+}
+
 
 h1 {
   font-size: 5em !important;
@@ -153,6 +165,10 @@ h1 {
   backdrop-filter: blur(30px);
   border: 3px solid #ff1aa4;
 
+}
+
+.border-video {
+  border: 5px solid white;
 }
 
 /* CARD COMISO CSS */
@@ -212,103 +228,34 @@ h1 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 420px) {
-  body {
-    display: block;
+@media (max-width: 768px) {
+  .comisoCard {
+    flex-direction: column;
+    align-items: center;
   }
-/* navbar*/
-
-  h1 {
-    width: 100% !important;
-    display: none;
-  }
-
-  .titolo {
-    font-size: 0.3 !important;
-    color: #61dafb !important;
-  }
-
-  .d-flex.platform {
-    display: block !important;
-  }
-
-  .sottotitolo {
+  .sabriCard  {
+    flex-direction: column;
+    align-items: center;
     width: 100% !important;
   }
-
-  .navbarLink {
-    font-size: 2em !important;
+  #card2, #card3   {
+    width: 100% !important;
+    border-radius: 0px !important;
+  }
+  .platform  {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: none !important;
   }
 
-  .navIcons.d-flex {
-    display: none !important;
+  .video-progetto {
+    width: 100vh !important;
+    margin-left: -50% !important;
+    border: none !important;
   }
-
-  .navbar-brand {
-    display: none !important;
+  .video-progetto2 {
+    width: 67vh !important;
+    margin-left: -17% !important;
+    border: none !important;
   }
-
-  .contactsNav {
-    display: none !important;
-  }
-
-  .mobileNav {
-    height: 60px;
-  }
-
-  .align-items-center.text-center.navbar-nav {
-    height: 100vh !important;
-    margin-top: 180px;
-  }
-
-/* comiso */
-
-  .d-flex.comisoCard {
-    display: block !important;
-    max-width: 100% !important;
-  }
-
-  .d-flex.sabriCard {
-    display: block !important;
-  }
-
-  .videoComiso {
-    display: none !important;
-  }
-
-  .comisoMaps {
-    margin: 0px !important;
-    width: 300px !important;
-    height: 300px !important;
-    margin: auto !important;
-  }
-
-  .w-50.mt-5.card-comiso
-  {
-    width: 95% !important;
-    margin: auto !important;
-    margin-top: 30px !important;
-  }
-
-  /* su di me */
-
-.sabriCard {
-  width: 100% !important;
-  border: none !important;
-  border-radius: 0px !important;
-}
-
-.mx-5.w-50.card-sabri2.sabriCard, .mt-5.sabriCard {
-  width: 100% !important;
-  margin: 0 !important;
-  margin-top: 30px !important;
-  border-radius: 0px !important;
-}
-
-.piattaformaCard {
-  display: block;
-  width: 300px !important;
-  height: 300px !important;
-  margin: auto !important;
-}
 }

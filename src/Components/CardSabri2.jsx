@@ -28,7 +28,7 @@ function BodyOnlyExample() {
       opacity: showCard ? 1 : 0,
       transform: showCard ? "translateX(0)" : "translateX(-300px)",
       transition: "opacity 0.5s ease, transform 1.2s ease",
-    }} className="mx-5 w-50 card-sabri2 sabriCard">
+    }} className="mx-5 w-50 card-sabri2">
       <Card.Body className="fs-6">
         Ho completato con successo un corso fullstack di 6 mesi e sono
         estremamente orgoglioso dei risultati che ho ottenuto. Durante questo

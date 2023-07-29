@@ -48,7 +48,7 @@ function BasicExample() {
         />
       </Card>
 
-      <Modal show={showModal} onHide={handleCloseModal}>
+      <Modal show={showModal} onHide={handleCloseModal} centered>
         <Modal.Header closeButton>
           <Modal.Title>Postman</Modal.Title>
         </Modal.Header>

@@ -4,11 +4,10 @@ import Navbar from "./Components/MyNavbar";
 import Certificazioni from "./Components/Certificazioni";
 import CertificazioniReact from "./Components/CertificazioniReact";
 import CertificazioniBackend from "./Components/CertificazioniBackend";
+import CertificazioneFinale from "./Components/CertificazioneFinale";
 import Footer from "./Components/Footer";
 import Maps from "./Components/Maps";
 import VideoCard from "./Components/VideoCard";
-import CardComiso from "./Components/CardComiso";
-import CardComiso2 from "./Components/CardComiso2";
 import CardSabri from "./Components/CardSabri";
 import CardSabri2 from "./Components/CardSabri2";
 import CardSabri3 from "./Components/CardSabri3";
@@ -17,6 +16,9 @@ import CardPiattaforma from "./Components/Cardpiattaforma";
 import CardPiattaforma2 from "./Components/Cardpiattaforma2";
 import CardPiattaforma3 from "./Components/Cardpiattaforma3";
 import CardPiattaforma4 from "./Components/Cardpiattaforma4";
+import Project from "./Components/Project";
+import Curriculum from "./Components/Curriculum";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -25,17 +27,14 @@ function App() {
     <div className="App">
       <Navbar />
       <h1 id="home" className="mx-auto fw-bold titolo">
-        HOME
+        BLOG
       </h1>
       <div class="text-white mx-auto rounded sottotitolo mt-5  d-flex align-items-center justify-content-center">
-        <h2 class="m-0 ">COMISO</h2>
+        <h2 class="m-0 ">SU DI ME</h2>
       </div>
       <div className="d-flex justify-content-center align-items-center comisoCard">
         <Maps />
         <VideoCard />
-      </div>
-      <div class="text-white mx-auto rounded sottotitolo mt-5  d-flex align-items-center justify-content-center">
-        <h2 class="m-0 ">SU DI ME</h2>
       </div>
       <div className="d-flex justify-content-center align-items-center sabriCard">
       <CardSabri/>
@@ -48,9 +47,11 @@ function App() {
       <div class="text-white mx-auto rounded sottotitolo mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">CURRICULUM</h2>
       </div>
+      <Curriculum />
       <h1 className="mx-auto fw-bold titolo" id="certificazioni">
-        BLOG
+        PORTFOLIO
       </h1>
+     
       <div class="text-white mx-auto rounded sottotitolo mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">PIATTAFORME</h2>
       </div>
@@ -63,9 +64,12 @@ function App() {
       <div class="text-white mx-auto rounded sottotitolo mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0 ">PROGETTI</h2>
       </div>
+      <Project />
       <h1 className="mx-auto fw-bold titolo" id="certificazioni">
         CERTIFICAZIONI
       </h1>
+      <CertificazioneFinale />
+
       <div class="text-white mx-auto rounded sottotitolo mt-5  d-flex align-items-center justify-content-center">
         <h2 class="m-0  marquee">FRONTEND</h2>
       </div>

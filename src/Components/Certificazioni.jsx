@@ -129,6 +129,8 @@ function UncontrolledExample() {
                 boxShadow: "5px 10px 10px #000000",
               }}
             />
+
+           
           </div>
         </Carousel.Item>
       </Carousel>
